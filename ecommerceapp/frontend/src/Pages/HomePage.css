@@ -1,0 +1,52 @@
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #2874f0;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.product-row {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.product-card {
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
